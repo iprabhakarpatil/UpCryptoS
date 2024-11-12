@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B0CFC51E2CE3D1C900981678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CFC4FF2CE3D1C800981678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CFC5062CE3D1C800981678;
+			remoteInfo = UpCryptos;
+		};
+		B0CFC5282CE3D1C900981678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CFC4FF2CE3D1C800981678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CFC5062CE3D1C800981678;
+			remoteInfo = UpCryptos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0CFC5072CE3D1C800981678 /* UpCryptos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpCryptos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CFC51D2CE3D1C900981678 /* UpCryptosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpCryptosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CFC5272CE3D1C900981678 /* UpCryptosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpCryptosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B0CFC52F2CE3D1C900981678 /* Exceptions for "UpCryptos" folder in "UpCryptos" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B0CFC5062CE3D1C800981678 /* UpCryptos */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B0CFC5092CE3D1C800981678 /* UpCryptos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B0CFC52F2CE3D1C900981678 /* Exceptions for "UpCryptos" folder in "UpCryptos" target */,
+			);
+			path = UpCryptos;
+			sourceTree = "<group>";
+		};
+		B0CFC5202CE3D1C900981678 /* UpCryptosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UpCryptosTests;
+			sourceTree = "<group>";
+		};
+		B0CFC52A2CE3D1C900981678 /* UpCryptosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UpCryptosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0CFC5042CE3D1C800981678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CFC51A2CE3D1C900981678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CFC5242CE3D1C900981678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0CFC4FE2CE3D1C800981678 = {
+			isa = PBXGroup;
+			children = (
+				B0CFC5092CE3D1C800981678 /* UpCryptos */,
+				B0CFC5202CE3D1C900981678 /* UpCryptosTests */,
+				B0CFC52A2CE3D1C900981678 /* UpCryptosUITests */,
+				B0CFC5082CE3D1C800981678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0CFC5082CE3D1C800981678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0CFC5072CE3D1C800981678 /* UpCryptos.app */,
+				B0CFC51D2CE3D1C900981678 /* UpCryptosTests.xctest */,
+				B0CFC5272CE3D1C900981678 /* UpCryptosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0CFC5062CE3D1C800981678 /* UpCryptos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CFC5302CE3D1C900981678 /* Build configuration list for PBXNativeTarget "UpCryptos" */;
+			buildPhases = (
+				B0CFC5032CE3D1C800981678 /* Sources */,
+				B0CFC5042CE3D1C800981678 /* Frameworks */,
+				B0CFC5052CE3D1C800981678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B0CFC5092CE3D1C800981678 /* UpCryptos */,
+			);
+			name = UpCryptos;
+			packageProductDependencies = (
+			);
+			productName = UpCryptos;
+			productReference = B0CFC5072CE3D1C800981678 /* UpCryptos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0CFC51C2CE3D1C900981678 /* UpCryptosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CFC5352CE3D1C900981678 /* Build configuration list for PBXNativeTarget "UpCryptosTests" */;
+			buildPhases = (
+				B0CFC5192CE3D1C900981678 /* Sources */,
+				B0CFC51A2CE3D1C900981678 /* Frameworks */,
+				B0CFC51B2CE3D1C900981678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CFC51F2CE3D1C900981678 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B0CFC5202CE3D1C900981678 /* UpCryptosTests */,
+			);
+			name = UpCryptosTests;
+			packageProductDependencies = (
+			);
+			productName = UpCryptosTests;
+			productReference = B0CFC51D2CE3D1C900981678 /* UpCryptosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0CFC5262CE3D1C900981678 /* UpCryptosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CFC5382CE3D1C900981678 /* Build configuration list for PBXNativeTarget "UpCryptosUITests" */;
+			buildPhases = (
+				B0CFC5232CE3D1C900981678 /* Sources */,
+				B0CFC5242CE3D1C900981678 /* Frameworks */,
+				B0CFC5252CE3D1C900981678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CFC5292CE3D1C900981678 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B0CFC52A2CE3D1C900981678 /* UpCryptosUITests */,
+			);
+			name = UpCryptosUITests;
+			packageProductDependencies = (
+			);
+			productName = UpCryptosUITests;
+			productReference = B0CFC5272CE3D1C900981678 /* UpCryptosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0CFC4FF2CE3D1C800981678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B0CFC5062CE3D1C800981678 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B0CFC51C2CE3D1C900981678 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B0CFC5062CE3D1C800981678;
+					};
+					B0CFC5262CE3D1C900981678 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B0CFC5062CE3D1C800981678;
+					};
+				};
+			};
+			buildConfigurationList = B0CFC5022CE3D1C800981678 /* Build configuration list for PBXProject "UpCryptos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0CFC4FE2CE3D1C800981678;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B0CFC5082CE3D1C800981678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0CFC5062CE3D1C800981678 /* UpCryptos */,
+				B0CFC51C2CE3D1C900981678 /* UpCryptosTests */,
+				B0CFC5262CE3D1C900981678 /* UpCryptosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0CFC5052CE3D1C800981678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CFC51B2CE3D1C900981678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CFC5252CE3D1C900981678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0CFC5032CE3D1C800981678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CFC5192CE3D1C900981678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CFC5232CE3D1C900981678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0CFC51F2CE3D1C900981678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CFC5062CE3D1C800981678 /* UpCryptos */;
+			targetProxy = B0CFC51E2CE3D1C900981678 /* PBXContainerItemProxy */;
+		};
+		B0CFC5292CE3D1C900981678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CFC5062CE3D1C800981678 /* UpCryptos */;
+			targetProxy = B0CFC5282CE3D1C900981678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0CFC5312CE3D1C900981678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UpCryptos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhakar.UpCryptos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0CFC5322CE3D1C900981678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UpCryptos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhakar.UpCryptos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0CFC5332CE3D1C900981678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0CFC5342CE3D1C900981678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0CFC5362CE3D1C900981678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhakar.UpCryptosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpCryptos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpCryptos";
+			};
+			name = Debug;
+		};
+		B0CFC5372CE3D1C900981678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhakar.UpCryptosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpCryptos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpCryptos";
+			};
+			name = Release;
+		};
+		B0CFC5392CE3D1C900981678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhakar.UpCryptosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UpCryptos;
+			};
+			name = Debug;
+		};
+		B0CFC53A2CE3D1C900981678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabhakar.UpCryptosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UpCryptos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0CFC5022CE3D1C800981678 /* Build configuration list for PBXProject "UpCryptos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CFC5332CE3D1C900981678 /* Debug */,
+				B0CFC5342CE3D1C900981678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CFC5302CE3D1C900981678 /* Build configuration list for PBXNativeTarget "UpCryptos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CFC5312CE3D1C900981678 /* Debug */,
+				B0CFC5322CE3D1C900981678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CFC5352CE3D1C900981678 /* Build configuration list for PBXNativeTarget "UpCryptosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CFC5362CE3D1C900981678 /* Debug */,
+				B0CFC5372CE3D1C900981678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CFC5382CE3D1C900981678 /* Build configuration list for PBXNativeTarget "UpCryptosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CFC5392CE3D1C900981678 /* Debug */,
+				B0CFC53A2CE3D1C900981678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0CFC4FF2CE3D1C800981678 /* Project object */;
+}
