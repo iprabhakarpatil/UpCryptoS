@@ -39,6 +39,7 @@ class HomeViewController: UIViewController {
         
         coinsTableView.register(UINib(nibName: "CoinTableViewCell", bundle: nil), forCellReuseIdentifier: "CoinTableViewCell")
         coinsTableView.dataSource = self
+        coinsTableView.delegate = self
         coinsTableView.estimatedRowHeight = UITableView.automaticDimension
     }
     
